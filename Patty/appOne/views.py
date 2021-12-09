@@ -1,4 +1,4 @@
-from django.shortcuts import render
+
 
 from django.views.generic import (TemplateView,
                                   ListView,
@@ -7,8 +7,9 @@ from django.views.generic import (TemplateView,
                                   UpdateView,
                                   DeleteView)
 
+from django.shortcuts import render
 
 # Create your views here.
 
-class pattyprojectpage(TemplateView):
+class projectpage(TemplateView):
     template_name = 'project.html'
