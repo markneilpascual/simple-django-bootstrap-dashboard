@@ -1,5 +1,3 @@
-
-
 from django.views.generic import (TemplateView,
                                   ListView,
                                   DetailView,
@@ -9,7 +7,8 @@ from django.views.generic import (TemplateView,
 
 from django.shortcuts import render
 
+
 # Create your views here.
 
-class projectpage(TemplateView):
+class projectpage_view(TemplateView):
     template_name = 'project.html'
