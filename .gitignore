@@ -1,0 +1,12 @@
+.idea
+
+appOne/__pycache__/
+appOne/migrations/__pycache__/
+project1v1/__pycache__/
+
+env
+
+static
+media
+
+db.sqlite3
